@@ -62,9 +62,36 @@ class _LandingPageState extends State<LandingPage> {
           ),
           Expanded(
             child: Container(
-              color: Colors.lightBlueAccent,
+              decoration:
+                  BoxDecoration(borderRadius: BorderRadius.circular(30)),
+              color: Colors.red,
               child: Column(
-                children: <Widget>[],
+                children: <Widget>[
+                  Expanded(
+                    child: Row(
+                      children: <Widget>[
+                        Text('first item'),
+                        Text(' second item'),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      children: <Widget>[
+                        Text('first item'),
+                        Text(' second item'),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      children: <Widget>[
+                        Text('first item'),
+                        Text(' second item'),
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
